@@ -110,7 +110,7 @@ If you make use of kdeLF in your work, please cite our paper
 Changelog
 ---------
 
-.. include:: ../HISTORY.rst
+.. include:: history.rst
 
 
 
