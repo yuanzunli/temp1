@@ -56,7 +56,7 @@ How to Use This Guide
 ---------------------
 
 To start, you're probably going to need to follow the :ref:`install` guide to
-get kdeLF installed on your computer.
+get emcee installed on your computer.
 After you finish that, you can probably learn most of what you need from the
 tutorials listed below (you might want to start with
 :ref:`quickstart` and go from there).
@@ -64,10 +64,11 @@ If you need more details about specific functionality, the User Guide below
 should have what you need.
 
 We welcome bug reports, patches, feature requests, and other comments via `the GitHub
-issue tracker <https://github.com/yuanzunli/kdeLF/issues>`_, but you should check out the
-`contribution guidelines <https://github.com/yuanzunli>`_
+issue tracker <https://github.com/dfm/emcee/issues>`_, but you should check out the
+`contribution guidelines <https://github.com/dfm/emcee/blob/master/CONTRIBUTING.md>`_
 first.
-If you have a question about the use of kdeLF, please feel free to contact the Author. 
+If you have a question about the use of emcee, please post it to `the users list
+<https://groups.google.com/forum/#!forum/emcee-users>`_ instead of the issue tracker.
 
 
 .. toctree::
@@ -76,12 +77,41 @@ If you have a question about the use of kdeLF, please feel free to contact the A
 
    user/install
    user/sampler
-   user/moves
-   user/blobs
-   user/backends
-   user/autocorr
    user/upgrade
    user/faq
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Tutorials
+
+   tutorials/quickstart
+   tutorials/line
+   tutorials/parallel
+   tutorials/
+   tutorials/monitor
+   tutorials/moves
+
+
+License & Attribution
+---------------------
+
+Copyright 2010-2019 Zunli Yuan and `contributors <https://github.com/yuanzunli/kdeLF/graphs/contributors>`_.
+
+kdeLF is free software made available under the MIT License. For details
+see the ``LICENSE``.
+
+If you make use of kdeLF in your work, please cite our paper
+(`arXiv <https://arxiv.org/abs/2003.13373>`_,
+`ADS <https://ui.adsabs.harvard.edu/abs/2020ApJS..248....1Y>`_,
+`BibTeX <https://ui.adsabs.harvard.edu/abs/2020ApJS..248....1Y/exportcitation>`_)
+.
+
+
+Changelog
+---------
+
+.. include:: ../HISTORY.rst
+
 
 
 
